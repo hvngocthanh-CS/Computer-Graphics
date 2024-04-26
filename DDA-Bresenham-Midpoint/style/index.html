@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>21520449</title>
+        <link href="./main.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Bai tap lab 1</h1>
+            <h2 class="author"> Huynh Vo Ngoc Thanh - UIT </h2>
+            <label for="cars">Choose an algorithm:</label>
+
+            <select name="draw" id="draw-options">
+              <option value="dda">DDA</option>
+              <option value="bresenham">BRESENHAM</option>
+              <option value="midpoint">MIDPOINT</option>
+              <option value="point">Drawing green points</option>
+            </select>
+
+            <div class="heading">
+                <h2 id="title"> Using DDA algorithm to draw lines </h2>
+            </div>
+
+            <div class="main-container">
+                <canvas id="canvas"></canvas>
+            </div>
+
+            <div class="buttons">
+                <button id="reset">
+                    Reset
+                </button>
+            </div>
+            <script type="text/javascript" src="../src/dda.js"></script>
+            <script type="text/javascript" src="../src/bresenham.js"></script>
+            <script type="text/javascript" src="../src/midpoint.js"></script>
+            <script type="text/javascript" src="../src/main.js"></script>
+        </div>
+
+    </body>
